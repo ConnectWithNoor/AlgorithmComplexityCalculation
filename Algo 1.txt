@@ -1,0 +1,60 @@
+transpose of an array 
+
+int array[10][10] , array2[10][10] 
+
+for (i to 10) { 
+	for (j to 10) { 
+	print "Enter values of array" 
+	input "array[i][j]" 
+	} 
+} 
+
+for (i to 10) { 
+	for (j to 10) { 
+		for (k to 10) {
+			array2[j][i] = array[i][j] 
+		} 
+	} 
+} 
+
+for (i to 10) { 
+	for (j to 10) { 
+	print "the original array = array[j][i]" 
+	} 
+} 
+
+for (i to 10) { 
+	for (j to 10) { 
+	print "the transpose of the array = array2[j][i]"
+	} 
+} 
+
+while (i to 10) { 
+	while (j to 10) { 
+	print "Enter values of array" 
+	input "array[i][j]" 
+	} 
+} 
+
+while (i to 10) { 
+	while (j to 10) { 
+		while (k to 10) {
+			array2[j][i] = array[i][j] 
+		} 
+	} 
+} 
+
+while (i to 10) { 
+	while (j to 10) { 
+	print "the original array = array[j][i]" 
+	} 
+} 
+
+while (i to 10) { 
+	while (j to 10) { 
+	print "the transpose of the array = array2[j][i]"
+	} 
+} 
+
+endOfProgram
+

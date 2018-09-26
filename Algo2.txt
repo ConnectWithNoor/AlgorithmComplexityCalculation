@@ -1,0 +1,42 @@
+int array[10],array2[10],array3[10]
+
+for (i to size of array)
+	
+	print "Enter values for first array : "
+	input "array[i]"
+end for
+
+while (i to size of array)
+	
+	print "Enter values for first array : "
+	input "array[i]"
+end while
+
+while (i to size of array)
+	
+	print "Enter values for second array : "
+	input "array2[i]"
+end while
+
+while (i to size of array)
+	
+	print "The values for first array : ,array[i]"
+end while
+
+while (i to size of array)
+
+	while (i to size of array)
+	
+	end while
+	print "The values for second array : ,array2[i]"
+	
+end while
+
+while (i to size of array)
+	
+	array3[10]=array1[i]+array2[i]
+	print "The sum of both arrays , array3[i]"
+
+end while
+
+end program
